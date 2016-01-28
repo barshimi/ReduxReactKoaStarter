@@ -1,0 +1,93 @@
+/**
+ *  login style sheet
+ */
+
+
+.loginWrapper {
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom:0;
+   right:0;
+}
+.loginBox {
+    margin: 0px auto;
+    width: 53%;
+}
+
+.loginTitle {
+    margin-top: 6rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 300;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-shadow: 0px 1px 1px #333;
+    font-size: 3.5rem;
+}
+.loginSubTitle {
+    color: #999;
+    font-weight: 500;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 3.5rem auto 3.2rem auto;
+}
+.submitForm {
+    margin: 0px auto;
+    width: 67rem;
+}
+.inputBox {
+    display: inline-flex;
+    border: 1px solid #dadbe1;
+    height: 4.688rem;
+    background-color: #fff;
+    padding-right: 0.5rem;
+    color: #000000;
+    margin-right: 0.9rem;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+    box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+}
+.asterisk {
+    font-size: 3rem;
+    margin-top: 3.5%;
+}
+.loginInput {
+    border: none;
+    width: 19.3rem;
+    padding-left: 1.4rem;
+    outline: none;
+}
+.loginInput::-webkit-input-placeholder {
+    color: #666565;
+    text-transform: uppercase;
+}
+.loginInput:-moz-placeholder {
+    /* FF 4-18 */
+    color: #666565;
+    text-transform: uppercase;
+}
+.loginInput::-moz-placeholder {
+    /* FF 19+ */
+    color: #666565;
+    text-transform: uppercase;
+}
+.loginInput:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #666565;
+    text-transform: uppercase;
+}
+.submitLogin {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.66rem 2.2rem;
+    text-transform: uppercase;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+    box-shadow: 5px 5px 0px 0px rgba(120,120,120,0.75);
+    outline: none;
+    height: 4.74rem;
+}

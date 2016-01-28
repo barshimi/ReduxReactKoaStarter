@@ -1,0 +1,90 @@
+.searchQuery {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid;
+    width: 40rem;
+    margin: 0 auto;
+}
+.seachTitle {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.serachInp {
+    border: none;
+    background-color: #d9edf7;
+    padding: 0.2rem 0.3rem;
+    margin-left: 1rem;
+    outline: none;
+    font-weight: 600;
+}
+
+.searchBtn {
+    border: none;
+    padding: 0.25rem 1rem;
+    margin-left: 1rem;
+    background-color: #515151;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    outline: none;
+}
+.noResults {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.content>div {
+    width: 60%;
+    margin: 0.5rem auto;
+}
+.listTitle {
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #F5F5F5;
+    padding: 0.7rem;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+.redditList {
+    margin: 1.5rem 1rem;
+}
+.postTitle {
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.pastTime {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.postComments {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.postComLink {
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #565656 !important;
+}
+.readPost>button {
+    border: none;
+    padding: 0.25rem 1rem;
+    margin-left: 1rem;
+    background-color: #515151;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    outline: none;
+    float: right;
+}
+.clearfix:after {
+    content: '';
+    dispaly: block;
+    height: 0;
+    clear: both;
+}

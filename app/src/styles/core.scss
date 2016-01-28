@@ -1,0 +1,43 @@
+@import 'vendor/normalize';
+
+body ,#root , #root>div, #root>div>div {
+    min-height: 100%;
+    height: 100%;
+}
+#pageContainer {
+    min-height: 100%;
+    height: 100%;
+}
+#pageContainer.active {
+    margin-left: 67px;
+}
+
+.navbar-brand {
+    padding: 12px 12px;
+}
+.view-container {
+    margin-left: 240px;
+    position: relative;
+    transition: all 0.3s ease;
+    min-height: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+#wrapper {
+    min-height: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#wrapper.active .view-container {
+    transition: all 0.3s ease;
+    margin-left: 0px;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
